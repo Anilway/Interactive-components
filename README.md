@@ -47,7 +47,7 @@ BannerPlugin轮播图组件使用原生JS编写，不依赖任何框架，可以
 </script>
 ```
 
-![](Component Banner/data-readme/1.png)
+![](https://raw.githubusercontent.com/Anilway/Interactive-components/master/Component%20Banner/data-readme/1.PNG)
 
 ## 2、基本配置
 
@@ -64,7 +64,7 @@ BannerPlugin轮播图组件使用原生JS编写，不依赖任何框架，可以
 
 > 创建一个800×300的轮播图
 
-![](Component Banner/data-readme/2.png)
+![](https://raw.githubusercontent.com/Anilway/Interactive-components/master/Component%20Banner/data-readme/2.PNG)
 
 ```javascript
 var banner=document.getElementById('banner');
@@ -87,7 +87,7 @@ isFull是用来设置全屏轮播，默认为false，是我在写组件时的一
 
 使用示例：（手机端演示）
 
-![](Component Banner/data-readme/3.png)
+![](https://raw.githubusercontent.com/Anilway/Interactive-components/master/Component%20Banner/data-readme/3.PNG)
 
 ```javascript
 var banner=document.getElementById('banner');
@@ -156,7 +156,7 @@ BannerPlugin({bannerBox:轮播图容器}); // 即可创建一个550×300的轮�
 
 使用示例：
 
-![](Component Banner/data-readme/4.png)
+![](https://raw.githubusercontent.com/Anilway/Interactive-components/master/Component%20Banner/data-readme/4.PNG)
 
 ```javascript
 var dataExample=[
@@ -206,7 +206,7 @@ var bannerExample=BannerPlugin({
 
 使用效果：
 
-![](Component Banner/data-readme/5.gif)
+![](https://raw.githubusercontent.com/Anilway/Interactive-components/master/Component%20Banner/data-readme/5.gif)
 
 
 
@@ -224,7 +224,7 @@ var bannerExample=BannerPlugin({
 
 使用示例：
 
-![](Component Banner/data-readme/6.gif)
+![](https://raw.githubusercontent.com/Anilway/Interactive-components/master/Component%20Banner/data-readme/6.gif)
 
 ## 3、轮播控制
 
@@ -245,7 +245,7 @@ var bannerExample=BannerPlugin({
 
 - isAuto用于设置轮播图是否自动切换，默认为true。
 
-![](Component Banner/data-readme/11.gif)
+![](https://raw.githubusercontent.com/Anilway/Interactive-components/master/Component%20Banner/data-readme/11.gif)
 
 - speed用于设置轮播图切换动画的时间（请看下面动图中1和2轮播图对比）；
 
@@ -253,7 +253,7 @@ var bannerExample=BannerPlugin({
 
 - isMouseAuto用于设置鼠标进入轮播图后，轮播图还是否切换；
 
-![](Component Banner/data-readme/10.gif)
+![](https://raw.githubusercontent.com/Anilway/Interactive-components/master/Component%20Banner/data-readme/10.gif)
 
 至于箭头按钮和指示器这些小控件对轮播图的切换控制，放在各自控件设置介绍中中进行演示说明。
 
@@ -266,7 +266,7 @@ var bannerExample=BannerPlugin({
 
 使用示例：
 
-![](Component Banner/data-readme/7.gif)
+![](https://raw.githubusercontent.com/Anilway/Interactive-components/master/Component%20Banner/data-readme/7.gif)
 
 ## 5、指示器设置
 
@@ -278,7 +278,7 @@ var bannerExample=BannerPlugin({
 | focusControl  |  true   | Boolean | 是否通过指示器切换图片                                       |
 |  focusEvent   |  click  | String  | 设置指示器触发图片切换的事件                                 |
 
-![](Component Banner/data-readme/8.gif)
+![](https://raw.githubusercontent.com/Anilway/Interactive-components/master/Component%20Banner/data-readme/8.gif)
 
 ## 6、组件扩展
 
@@ -312,7 +312,7 @@ BannerPlugin.extend({
 bannerExample.changeColor();
 ```
 
-![](Component Banner/data-readme/12.gif)
+![](https://raw.githubusercontent.com/Anilway/Interactive-components/master/Component%20Banner/data-readme/12.gif)
 
 在上面的例子中，focusBox就表示指示器容器。你在初次使用时，可能不熟悉。这个组件的源代码非常简单，你完全可以通过研究源代码和查看dom结构去了解。其实，我们也可以自己在原型上扩展一个函数筛选出我们需要的数据。
 
@@ -340,7 +340,7 @@ BannerPlugin.extend({
 var data=bannerExample.getData();
 ```
 
-![](Component Banner/data-readme/13.png)
+![](https://raw.githubusercontent.com/Anilway/Interactive-components/master/Component%20Banner/data-readme/13.PNG)
 
 ## 7、组件注销
 
@@ -355,7 +355,7 @@ var bannerExample=BannerPlugin({...});
 bannerExample.destroty();                                
 ```
 
-![](Component Banner/data-readme/9.gif)
+![](https://raw.githubusercontent.com/Anilway/Interactive-components/master/Component%20Banner/data-readme/9.gif)
 
 ## API汇总
 
@@ -426,7 +426,7 @@ bannerExample.destroty();
 
 switchTab选项卡面板提供多套风格，支持响应式，支持自定义样式，支持自定义事件触发等功能。switchTab选项卡独立组件使用原生JS编写，不依赖任何框架。
 
-![](Component Tab/src/img/7.png)
+![](https://raw.githubusercontent.com/Anilway/Interactive-components/master/Component%20Tab/src/img/7.png)
 
 ## 1、起步
 
@@ -469,7 +469,7 @@ var tabBox=document.getElementsByClassName("tabBox")[0];
 new SwitchTab(tabBox);
 ```
 
-![](Component Tab/src/img/1.png)
+![](https://raw.githubusercontent.com/Anilway/Interactive-components/master/Component%20Tab/src/img/1.PNG)
 
 ## 2、选项卡设置
 
@@ -516,7 +516,7 @@ new SwitchTab(tabBox，{
 </script>
 ```
 
-![](Component Tab/src/img/2.gif)
+![](https://raw.githubusercontent.com/Anilway/Interactive-components/master/Component%20Tab/src/img/2.gif)
 
 ## 3、内置风格选择
 
@@ -526,7 +526,7 @@ new SwitchTab(tabBox，{
 
 总共内置了8中样式风格，采用的是Bootstrap4中的配色。颜色如下：（使用时，首字母小写）
 
-![](Component Tab/src/img/3.png)
+![](https://raw.githubusercontent.com/Anilway/Interactive-components/master/Component%20Tab/src/img/3.PNG)
 
 ### 使用示例：
 
@@ -534,13 +534,13 @@ new SwitchTab(tabBox，{
 new SwitchTab(tabBox，{style:"dark"});
 ```
 
-![](Component Tab/src/img/4.png)
+![](https://raw.githubusercontent.com/Anilway/Interactive-components/master/Component%20Tab/src/img/4.PNG)
 
 ```javascript
 new SwitchTab(tabBox，{style:"danger"});
 ```
 
-![](Component Tab/src/img/5.png)
+![](https://raw.githubusercontent.com/Anilway/Interactive-components/master/Component%20Tab/src/img/5.PNG)
 
 ## 4、自定义样式
 
@@ -561,7 +561,7 @@ width和height是用来快速设置选项卡容器大小的api，除了用这两
 
 ### 使用示例：
 
-![](Component Tab/src/img/6.png)
+![](https://raw.githubusercontent.com/Anilway/Interactive-components/master/Component%20Tab/src/img/6.PNG)
 
 ```javascript
 new SwitchTab(tabBox,{
