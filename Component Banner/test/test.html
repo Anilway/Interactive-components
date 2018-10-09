@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="banner.css">
+	<style>
+		.bannerTest{
+			margin:10px;
+			float:left;
+		}
+		.clear:after{
+			content:'';
+			display:block;
+			clear:both;
+		}
+	</style>
+</head>
+<body>
+	<div class='clear'>
+		<div id="banner" class="bannerTest"></div>
+		<div id="banner1" class="bannerTest"></div>
+		<div id="banner2" class="bannerTest"></div>
+		<div id="banner5" class="bannerTest"></div>
+	</div>
+	<div>
+		<div id="banner3" class="bannerTest"></div>
+		<div id="banner4" class="bannerTest"></div>
+	</div>
+	<script src="banner-plugin.js"></script>
+	<script>
+		var bannerExample=BannerPlugin({bannerBox:banner});
+		BannerPlugin({
+			bannerBox:banner1,
+			width:225,
+			height:150,
+			bannerType:'default',
+			focusStyle:'cycle',
+			arrowDisplay:'hidden',
+			initIndex:1
+		});
+		BannerPlugin({
+			bannerBox:banner2,
+			width:225,
+			height:150,
+			bannerType:'fade',
+			focusStyle:'cycle',
+			focusPosition:'outer',
+			focusEvent:'mouseover',
+			isAuto:false
+		});
+		BannerPlugin({
+			bannerBox:banner5,
+			width:225,
+			height:150,
+			bannerType:'fade',
+			focusStyle:'square',
+			focusPosition:'inner',
+			arrowDisplay:'hidden',
+			initIndex:2
+		});
+		BannerPlugin({
+			bannerBox:banner3,
+			bannerType:'fade',
+			focusStyle:'square',
+			isAuto:false,
+			initIndex:3
+		});
+		BannerPlugin({
+			bannerBox:banner4,
+			bannerType:'updown',
+			focusStyle:'dash',
+			arrowDisplay:'hidden',
+			autoInterval:5000,
+			bannerData:[
+					{
+				        "img":"https://pic2.zhimg.com/v2-25261f93f94fabd84bd37aa34c2aea1a_1200x500.jpg",
+				        "desc": "静坐听雨无畏，无问西东求真。",
+				        "link": "https://movie.douban.com/subject/6874741/"
+				    },
+				    {
+				        "img":"http://placeholder.qiniudn.com/550x300/009688/fff",
+				        "desc": "那一天我二十一岁，在我一生的黄金时代。我有好多奢望。我想爱，想吃，还想再一瞬间变成天上半明半暗的云。",
+				        "link": "#"
+				    },				  
+				    {
+				        "img":"http://placeholder.qiniudn.com/550x300/5FB878/fff",
+				        "desc": "岁月悠悠，衰微只及肌肤；热忱抛却，颓废必致灵魂。",
+				        "link": "#"
+				    },
+				    {
+				        "img":"http://placeholder.qiniudn.com/550x300/ff9500/fff",
+				        "desc": "我告诉你我懂什么。我每天到你家接你，我们出去喝酒笑闹,那很棒。但我一天中最棒的时刻，只有十秒，从停车到你家门口，每次我敲门,都希望你不在了。不说再见,什么都没有，你就走了",
+				        "link": "#"
+				    }
+			],
+			haveDesc:true
+		});
+	</script>
+</body>
+</html>
